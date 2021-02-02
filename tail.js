@@ -20,7 +20,7 @@ const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words);
 assertEqual(words.length, 3);
 
-console.log(tail(words));
+// console.log(tail(words));
 
 // Test array
 for (let i = 0; i < tail(words).length; i++) {
