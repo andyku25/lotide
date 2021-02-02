@@ -21,3 +21,8 @@ tail(words);
 assertEqual(words.length, 3);
 
 console.log(tail(words));
+
+// Test array
+for (let i = 0; i < tail(words).length; i++) {
+  assertEqual(tail(words)[i], words[i + 1]);
+}
