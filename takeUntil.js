@@ -26,10 +26,10 @@ const takeUntil = (array, callback) => {
   for (const item of array) { // Cannot use forEach because you cannot exit out of the loop early with return
     if (callback(item)) {
       return results;
-    } else {
-      results.push(item);
     }
-  }  
+    results.push(item);
+  }
+  return results;
 };
 
 // TEST
