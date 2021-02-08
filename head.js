@@ -1,15 +1,6 @@
-// Function Implementation
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌ Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// Import assertEqual
+const assertEqual = require("./assertEqual");
 
-// Test
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
 
 const head = function(array) {
   if (array.length < 1) {
