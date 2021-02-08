@@ -1,8 +1,12 @@
-const assertEqual = require("../assertEqual");
+// TESTING WITH MOCHA/CHAI
+const assert = require("chai").assert;
 const tail = require("../tail");
 
-// Test array
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-for (let i = 0; i < tail(words).length; i++) {
-  assertEqual(tail(words)[i], words[i + 1]);
-}
+describe("#tail", () => {
+  it("return [2] for [1, 2]", () => {
+    assert.deepEqual(tail([1, 2]), [2]);
+  });
+  it("return [2, 3] for [1, 2, 3]", () => {
+    assert.deepEqual(tail([1, 2, 3]), [2, 3]);
+  });
+});
