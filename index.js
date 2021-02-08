@@ -21,5 +21,5 @@ module.exports = {
   letterPositions: letterPositions,
   map: map,
   takeUntil: takeUntil,
-  without: without,
+  without: without
 };

@@ -2,7 +2,7 @@
 const assert = require("chai").assert;
 const findKey = require("../findKey");
 
-describe("#middle", () => {
+describe("#findKey", () => {
   it("returns the first key 'noma' when passed a object and cb of star counts", () => {
     const result = findKey({
       "Blue Hill": {stars: 1},

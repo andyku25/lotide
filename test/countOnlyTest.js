@@ -1,7 +1,7 @@
 const assert = require("chai").assert;
 const countOnly = require("../countOnly");
 
-describe("#countLetters", () => {
+describe("#countOnly", () => {
   it("returns 1 when passed a list of first names including 'Jason' when looking for is true", () => {
     const firstNames = [
       "Karl",
