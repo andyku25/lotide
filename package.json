@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide is a clone of the Lodash library and is used for learning purposes as part of the Lighthouse Labs Bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/andyku25/lotide.git"
   },
-  "author": "",
+  "keywords": ["lighthouseLabs", "lotide", "lodash"],
+  "author": "andyku25",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andyku25/lotide/issues"
