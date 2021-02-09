@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@andyku25/lotide",
   "version": "1.0.0",
   "description": "lotide is a clone of the Lodash library and is used for learning purposes as part of the Lighthouse Labs Bootcamp",
   "main": "index.js",
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/andyku25/lotide.git"
   },
-  "keywords": ["lighthouseLabs", "lotide", "lodash"],
+  "keywords": [
+    "lighthouseLabs",
+    "lotide",
+    "lodash"
+  ],
   "author": "andyku25",
   "license": "ISC",
   "bugs": {
