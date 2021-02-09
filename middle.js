@@ -1,6 +1,3 @@
-// Import assertArraysEqual
-const assertArraysEqual = require("./assertArraysEqual");
-
 // Find the middle array value(s)
 const middle = function(array) {
   if (array.length < 3) {
