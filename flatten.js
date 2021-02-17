@@ -16,3 +16,5 @@ const flatten = (arr) => {
 test = [1, 2, [3, 4], 5, [6]];
 
 console.log(flatten(test));
+
+assertArraysEqual(flatten(test), [1, 2, 3, 4, 5 , 6])
